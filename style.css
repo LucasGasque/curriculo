@@ -6,7 +6,7 @@
 }
 
 html{
-    background-color: #222;
+    background-color: var(--white);
 }
 
 *{
@@ -18,7 +18,7 @@ html{
 
 body{
     font-family: 'Roboto', sans-serif;
-    height: 1100px;
+    height: 1200px;
     width: 920px;
     background-color: var(--white);
     padding: 30px 20px;
@@ -54,7 +54,7 @@ header{
     top: 0;
     left: 0;
     width: 300px;
-    height: 375px;
+    height: 390px;
 }
 
 .header_picture{
@@ -104,10 +104,10 @@ aside{
     background-color: var(--purple);
     color:var(--white);
     position:absolute;
-    top:375px;
+    top:390px;
     left: 0;
     width: 300px;
-    height: 725px;
+    height: 910px;
     padding-top:20px;
     display: flex;
     flex-direction: column;
@@ -159,12 +159,12 @@ main{
     position: absolute;
     top: 0;
     left: 300px;
-    height: 700px;
+    height: 1000px;
 }
 
 .name{
-    margin: 10px ;
-    padding: 0 0 10px 0;
+    margin: 20px 10px 10px ;
+    padding: 0 0 20px 0;
     border-bottom: 1px solid var(--purple);
 }
 
@@ -201,16 +201,3 @@ main{
 .flex div{
     margin: 10px;
 }
-
-footer{
-    position: absolute;
-    left: 300px;
-    top:1020px;
-    margin: 10px;
-}
-
-
-
-
-
-
