@@ -201,3 +201,25 @@ main{
 .flex div{
     margin: 10px;
 }
+
+.projects{
+    margin: 10px 10px 0 ;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid var(--purple);
+}
+
+.projects h2{
+    margin: 10px 0;
+}
+
+.projects div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.projects a{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
